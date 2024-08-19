@@ -1,0 +1,130 @@
+@media (max-width: 1280px) {
+    .fbtn1{
+        width: 70%;
+        height: 110%;
+        border-radius: 95px;
+    }
+    .secondsection{
+        padding: 10% 10%;
+    }
+    .second2nddiv{
+        grid-template-columns: 1fr 1fr;
+    }
+    .third2nddiv{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .navfirst{
+        display: none;
+    }
+    .navbtn{
+        display: flex;
+        justify-content: space-between;
+        padding: 6% 6%;
+        cursor: pointer;
+    }
+    .navsecondbtn{
+        display: none;
+    }
+    .firstancormedia{
+        text-align: center;
+    }
+}
+@media (max-width: 928px) {   
+    .fimgdiv{
+        flex-direction: column;
+    }
+    .img3{
+        width: 100%;
+        height: 80vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-top: -5%;
+        margin-left: 0;
+    }
+    .mobilepics{
+        width: 350px;
+        margin-top: -10%;
+    }
+    .img2{
+        display: none;
+    }
+    .img2media{
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        margin-top: -25%;
+        text-align: center;
+    }
+    .textdiv{
+        text-align: center;
+    }
+    .bigspan{
+        font-size: 35px;
+    }
+    .bigsparam{
+        margin-top: -8%;
+        margin-bottom: 4%;
+    }
+    .ebap{
+        background-color: green;
+        color: white;
+        font-weight: 600;
+        width: 60%;
+        height: 20%;
+        border-radius: 95px;
+        padding: .7em 1.2em;
+        border: 2px solid green;
+        margin-top: -1%;
+        margin-bottom: 10%;
+    }
+    .secondh1{
+        font-size: 30px;
+    }
+    .second2nddiv{
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .thirdh1{
+        font-size: 26px;
+    }
+    .third2nddiv{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        justify-content: space-evenly;
+    }
+    .third3rddiv{
+        margin-bottom: 5%;
+    }
+    .footerfirdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footerfirstdiv{
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+        width: 70%;
+    }
+    .foot3rddiv{
+        display: flex;
+        flex-direction: row;
+        gap: 15%;
+        padding: 5% 5%;
+        width: 100%;
+    }
+    .lbtn1{
+        background-color: green;
+        color: rgba(255, 255, 255, 0.774);
+        font-weight: 600;
+        width: 50%;
+        height: 55%;
+        border-radius: 95px;
+        padding: .7em 1.2em;
+        border: 2px solid green;
+        margin-top: -4%;
+    }
+}

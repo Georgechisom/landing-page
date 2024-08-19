@@ -1,0 +1,247 @@
+body{
+    background-color: whitesmoke;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin-top: -9.9%;
+    background-color: white;
+    margin-left: -0.5%;
+}
+.navfirst{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 2%;
+    border-bottom: 2px solid green;
+}
+.firstancor{
+    width: 50%;
+    text-align: center;
+}
+.fancor{
+    text-decoration: none;
+    color: green;
+    padding: 1% 3%;
+}
+.fancor:hover{
+    font-style: italic;
+    border-bottom: 2px solid green;
+}
+.fbtn{
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    width: 110%;
+    height: 110%;
+    border-radius: 95px;
+    padding: .7em 1.2em;
+    border: 2px solid green;
+    margin-top: -4%;
+}
+.fbtn:hover{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+}
+.navbtn{
+    display: none;
+}
+.navbtnclass{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    margin-left: -0.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbtn1{
+    display: none;
+}
+.firstancormedia{
+    padding: 2% 2%;
+}
+.firstancormedia1{
+    display: flex;
+    flex-direction: column;
+}
+.btmedia{
+    display: none;
+    padding: 2% 2%;
+}
+.fbtnmedia{
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    width: 120%;
+    height: 100%;
+    border-radius: 95px;
+    padding: .7em 1.2em;
+    border: 2px solid green;
+    margin-top: -4%;
+}
+.firstsection{
+    margin-top: 10%;
+}
+.fimgdiv{
+    display: flex;
+}
+.img2{
+    width: 100%;
+    text-align: center;
+    margin-left: 9%;
+}
+.img2media{
+    display: none;
+}
+.img3{
+    width: 150vw;
+    height: 80vh;
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin-top: -5%;
+    margin-left: 5%;
+}
+.mobilepics{
+    width: 550px;
+    margin-top: -10%;
+}
+.textdiv{
+    text-align: left;
+}
+.bigspan{
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bigsparam{
+    margin-top: -8%;
+    margin-bottom: 8%;
+}
+.fbtn1{
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    width: 30%;
+    height: 110%;
+    border-radius: 95px;
+    padding: .7em 1.2em;
+    border: 2px solid green;
+    margin-top: -4%;
+}
+.secondsection{
+    padding: 10% 10%;
+    background-color: rgba(228, 222, 222, 0.555);
+}
+.secondh1{
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.second2nddiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 7%;
+}
+.secondh2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.thirdsection{
+    padding: 10% 10%;
+}
+.third2nddiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 7%;
+}
+.thirdh1{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+.third3rddiv{
+    background-color: white;
+    width: 220px;
+}
+.thirdimg{
+    width: 220px;
+}
+.thirdimgs{
+    width: 220px;
+    height: 45%;
+}
+.thirdspan{
+    font-size: 12px;
+    font-style: italic;
+}
+.strong{
+    margin-top: 2%;
+    font-size: 17px;
+}
+.thirdparam{
+    margin: 5% 5%;
+}
+.initpar{
+    font-size: 12px;
+    margin-top: -2%;
+}
+.footer{
+    background-color: rgb(15, 15, 58);
+    background-size: cover;
+    padding: 5% 10%;
+    margin: -0.5%;
+}
+.footerfirdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footerfirstdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    width: 70%;
+}
+.foot1stimg{
+    filter: invert(-1);
+    filter: brightness(3.9);
+}
+.footericons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-top: 25%;
+}
+.foot3rddiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+}
+.lastanchor{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.774);
+}
+.lbtn1{
+    background-color: green;
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: 600;
+    width: 80%;
+    height: 55%;
+    border-radius: 95px;
+    padding: .7em 1.2em;
+    border: 2px solid green;
+    margin-top: -4%;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.774);
+    margin-top: 5%;
+}
